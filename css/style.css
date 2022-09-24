@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto');
+    src: url(../font/Roboto-Regular.ttf);
+    src: url(../font/Roboto-Regular.eot);
+    src: url(../font/Roboto-Regular.woff);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Philosopher';
+    src: local('Philosopher');
+    src: url(../font/Philosopher-Regular.ttf);
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Philosopher', sans-serif;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffe2b0;
+}
+
+header,
+ul {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    text-transform: uppercase;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 100px;
+    font-size: 18px;
+}
+
+li:last-child {
+    margin-right: 0;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 20px;
+}
+
+a:hover {
+    color: red;
+}
+
+.logo,
+nav {
+    margin-bottom: 20px;
+}
+
+.section-about {
+    height: 640px;
+    background: url(../img/01-Backgroung-image.jpg) center/cover no-repeat;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.section-about-block {
+    width: 420px;
+    height: 190px;
+    background: linear-gradient(180deg, rgba(244, 213, 178, 0.8) 0%, rgba(234, 156, 65, 0.8) 100%);
+    position: absolute;
+    left: 50.5%;
+    top: 54.53%;
+    padding-top: 15px;
+}
+
+.section-about-border {
+    width: 390px;
+    height: 160px;
+    border: 1px solid #000;
+    margin: 0 auto;
+    text-align: left;
+    padding: 17px 0 0 28px;
+}
+
+.section-about-header {
+    font-size: 36px;
+    margin: 0;
+    margin-bottom: 9px;
+}
+
+.section-about-text {
+    font-size: 12px;
+    margin: 0;
+}
+
+.section-description {
+    margin-bottom: 20px;
+}
+
+.section-description-icons {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.icons:not(:last-child) {
+    margin-right: 76px;
+}
+
+.section-description-header {
+    font-size: 96px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section-description-header span {
+    color: #f15b40;
+}
+
+.section-description-content {
+    width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.section-map-title {
+    font-size: 36px;
+    margin: 0 auto 20px;
+    text-align: center;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.line {
+    width: 1024px;
+    border-top: 1px solid #999;
+    margin: 0 auto 20px;
+}
